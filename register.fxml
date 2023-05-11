@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="410.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.orcaleconnect.register">
+   <children>
+      <ImageView fitHeight="424.0" fitWidth="754.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\User\Downloads\253342.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="12.0" layoutY="34.0" prefHeight="32.0" prefWidth="729.0" text="Register" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idtextfeild" layoutX="26.0" layoutY="113.0" prefHeight="26.0" prefWidth="181.0" promptText="ID" />
+      <TextField fx:id="firstnametextfeild" layoutX="26.0" layoutY="237.0" prefHeight="26.0" prefWidth="181.0" promptText="First Name" />
+      <TextField fx:id="citytextfeild" layoutX="274.0" layoutY="237.0" prefHeight="26.0" prefWidth="181.0" promptText="city" />
+      <TextField fx:id="lastnametextfeild" layoutX="280.0" layoutY="113.0" prefHeight="26.0" prefWidth="181.0" promptText="Last Name" />
+      <TextField fx:id="streettextfeild" layoutX="523.0" layoutY="113.0" prefHeight="26.0" prefWidth="181.0" promptText="street" />
+      <TextField fx:id="zipcodetextfeild" layoutX="523.0" layoutY="237.0" prefHeight="26.0" prefWidth="181.0" promptText="zipcode (number only)" />
+      <Button fx:id="registerbutton" layoutX="447.0" layoutY="332.0" mnemonicParsing="false" onAction="#setRegisterbutton" prefHeight="26.0" prefWidth="69.0" text="Register" />
+      <Button fx:id="backbutton" layoutX="196.0" layoutY="332.0" mnemonicParsing="false" onAction="#setBackButton" prefHeight="26.0" prefWidth="69.0" text="Back" />
+   </children>
+</AnchorPane>

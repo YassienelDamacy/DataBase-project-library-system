@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.orcaleconnect.user">
+    <children>
+        <ImageView fitHeight="401.0" fitWidth="640.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="C:\Users\User\Downloads\253371.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="3.0" layoutY="14.0" prefHeight="39.0" prefWidth="632.0" text="welcome" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="backbutton" layoutX="56.0" layoutY="339.0" mnemonicParsing="false" onAction="#setBackButton" text="Back" />
+        <Button fx:id="borrowbutton" layoutX="281.0" layoutY="339.0" mnemonicParsing="false" onAction="#setBorrowbutton" text="Borrow" />
+        <Button fx:id="returnbutton" layoutX="523.0" layoutY="339.0" mnemonicParsing="false" onAction="#setReturnbutton" text="Return" />
+        <TextField fx:id="borroweridtextfeild" layoutX="46.0" layoutY="86.0" promptText="Borrower Id" />
+        <TextField fx:id="bookidtextfeild" layoutX="414.0" layoutY="86.0" promptText="Book Id" />
+        <TextField fx:id="datetextfeild" layoutX="47.0" layoutY="175.0" promptText="date" />
+        <TextField fx:id="duedatetextfeild" layoutX="407.0" layoutY="175.0" promptText="Due Date" />
+        <TextField fx:id="passedreturndatetextfeild" layoutX="225.0" layoutY="244.0" promptText="Passed Return Date" />
+    </children>
+</AnchorPane>
